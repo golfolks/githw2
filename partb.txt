@@ -1,0 +1,33 @@
+There is a master branch which had a branch develop and there is a another branch for bug fixing which is colored in red and we can see in the pic that develop branch is also producing more branches for major feature and feature branches.
+
+the develop branch is being developed in a flow and where you can see in the 5th step the bug fix is being fixed and being merged into develop branch. The same way the major feature branch is merged into develop branch at 6th step, once the major feature is merged there is a release for branch 1.0 for bug fixes so that everything can be cleared. Here we can absolve that from the bug fixing branch there is a merge again into the develop branch  and from develop branch into the  feature branch for required updates and merged back into the develop branch and from develop branch back into the release branch. Here we can find another feature branch is also being merged into develop branch and to release branch.
+
+In release branch you can at the last before step part of the branch is merged to develop branch and other part into master branch and the merged one into the develop branch is being developed and again merged back into the master branch and the final update is done.
+
+There are several branches here like:
+
+master
+hotfixes branch
+release branches
+develop branch
+couple of feature branches 
+
+and you can find the merges between the branches.
+
+different commands here can be:
+
+git checkout -b develop with this you can create a new branch develop.
+
+being in a master branch you can merge a release branch as follows
+
+git merge release.
+
+you can observe there are lot merges taken place in the given scenario for example you can see merges between develop and feature branch and develop and release branch.
+
+
+
+
+
+
+
+
